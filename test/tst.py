@@ -15,3 +15,7 @@ def test_test_add_group(app):
     app.open_menu_subitem()
     app.logout()
 
+def test_test_add_group1(app):
+    app.login(username="r4gnardi@gmail.com", password="xnj,znfr;bk")
+
+

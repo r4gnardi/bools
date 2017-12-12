@@ -10,8 +10,8 @@ class Application:
 
     def logout(self):
         wd = self.wd
-        #logout = wd.find_element_by_css_selector('a[href = "http://uae.microless.com/login/"][class="button-link"]')
-        logout = wd.find_element_by_xpath('//ancestor::span[text()="Your Account"]')
+        logout = wd.find_element_by_css_selector('a[href = "http://uae.microless.com/account/"][class ="button-link"]')
+        #logout = wd.find_element_by_xpath('//ancestor::span[text()="Your Account"]')
         ActionChains(wd).move_to_element(logout).perform()
         wd.find_element_by_link_text("Log Out").click()
 

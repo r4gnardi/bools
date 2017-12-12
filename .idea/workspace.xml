@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90b103c6-be7a-4883-826b-7f2fcec34931" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" afterPath="$PROJECT_DIR$/fixture/application.py" />
+      <change beforePath="$PROJECT_DIR$/test/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/test/.cache/v/cache/lastfailed" />
+      <change beforePath="$PROJECT_DIR$/test/tst.py" afterPath="$PROJECT_DIR$/test/tst.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +19,8 @@
       <file leaf-file-name="tst.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/tst.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -28,8 +31,8 @@
       <file leaf-file-name="application.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+            <state relative-caret-position="375">
+              <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -64,9 +67,9 @@
       <list>
         <option value="$PROJECT_DIR$/model/fixture.py" />
         <option value="$PROJECT_DIR$/fixture/fixture.py" />
-        <option value="$PROJECT_DIR$/test/tst.py" />
         <option value="$PROJECT_DIR$/sdfsd.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/test/tst.py" />
       </list>
     </option>
   </component>
@@ -236,15 +239,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_tst_py - 2017.12.12 at 17h 23m 50s.xml">
-      <configuration name="py.test in tst.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_tst_py - 2017.12.12 at 17h 36m 03s.xml">
-      <configuration name="py.test in tst.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_tst_py - 2017.12.12 at 17h 56m 20s.xml">
-      <configuration name="py.test in tst.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_tst_py - 2017.12.12 at 18h 00m 58s.xml">
       <configuration name="py.test in tst.py" configurationId="tests" />
     </history-entry>
@@ -264,6 +258,15 @@
       <configuration name="py.test in tst.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_tst_py - 2017.12.12 at 19h 39m 55s.xml">
+      <configuration name="py.test in tst.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_tst_py - 2017.12.12 at 20h 14m 55s.xml">
+      <configuration name="py.test in tst.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_tst_py - 2017.12.12 at 20h 27m 12s.xml">
+      <configuration name="py.test in tst.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_tst_py - 2017.12.12 at 20h 28m 19s.xml">
       <configuration name="py.test in tst.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -321,16 +324,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/fixture.py" />
     <entry file="file://$PROJECT_DIR$/fixture/fixture.py" />
-    <entry file="file://$PROJECT_DIR$/test/tst.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sdfsd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -339,10 +332,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/tst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        <state relative-caret-position="375">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
