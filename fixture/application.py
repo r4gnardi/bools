@@ -1,6 +1,6 @@
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver import ActionChains
-
+from time import sleep
 
 class Application:
 
@@ -13,6 +13,7 @@ class Application:
         logout = wd.find_element_by_css_selector('a[href = "http://uae.microless.com/account/"][class ="button-link"]')
         #logout = wd.find_element_by_xpath('//ancestor::span[text()="Your Account"]')
         ActionChains(wd).move_to_element(logout).perform()
+        #sleep(2)
         wd.find_element_by_link_text("Log Out").click()
 
     def login(self, username, password):
