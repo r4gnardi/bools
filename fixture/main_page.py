@@ -14,7 +14,17 @@ class MainPage:
         wd = self.app.wd
         main_menu = wd.find_element_by_id("menu-toggle")
         ActionChains(wd).move_to_element(main_menu).perform()
-        submenu = wd.find_element_by_xpath('id("menu-wrapper")/ul[1]/li[5]/a[1]')
+        submenu = wd.find_element_by_xpath("//div[@id = 'menu-wrapper']//a[text() = 'Software'][@href ='https://uae.microless.com/software/']")
         ActionChains(wd).move_to_element(submenu).perform()
-        wd.find_element_by_xpath('id("menu-wrapper")/ul[1]/li[5]/div[1]/div[1]/ul[1]/li[4]/a[1]').click()
+        wd.find_element_by_xpath('//div[@id = "menu-wrapper"]//a[text() = "Graphic Design"]').click()
+
+    def open_home_page(self):
+        wd = self.app.wd
+        wd.get("https://uae.microless.com/")
+
+    def open_product(self, product_name):
+        wd = self.app.wd
+        wd.find_element_by_id("query-desktop").send_keys(product_name)
+        wd.find_element_by_xpath('//div[@class = "search-auto-complete-text"][text()="CorelDRAW Graphics Suite X7 - 1 User"]')
+
 

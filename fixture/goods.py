@@ -5,6 +5,8 @@ class Goods:
     def __init__(self, app):
         self.app = app
 
-    def buy_first_goods(self):
+    def clicl_first_product(self):
         wd = self.app.wd
-        wd.find_element_by_xpath('id("search-results")//img[@src = "https://uae.microless.com/cdn/products/22423-sm.jpg"]').click()
+        wd.find_element_by_xpath('//div[@class = "product grid-list "][1]//div[@class = "product-image"]').click()
+
+
